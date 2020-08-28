@@ -21,7 +21,7 @@ export const App = () => {
 	// Mientras no exista respuesta, se mantiene la pantalla de 'Loading'
 	// Si deseas agregar Headers, deberás modificar la petición ingresando a './hooks/useFetch.js' 
 	
-	const url = 'https://cors-anywhere.herokuapp.com/https://okkfgfozi0.execute-api.us-east-2.amazonaws.com/beta'
+	const url = 'https://cors-anywhere.herokuapp.com/https://bzngn73785.execute-api.sa-east-1.amazonaws.com/Desarrollo'
 
 	const { data, loading } = useFetch(url);
 
