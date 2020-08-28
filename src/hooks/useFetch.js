@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 export const useFetch = (url) => {
 
     const [state, setState] = useState({ data: null, loading: true, error: null })
-const heders = {
+const headers = {
     X-API-Key:BmSSsb4cCQaFWASjdJ7yA2pPp6RtmWsq0URZUsu0
      }
     useEffect(() => {
